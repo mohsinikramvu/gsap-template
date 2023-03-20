@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("../fonts/stylesheet.css");
+@import url("../baj-jam-fonts/stylesheet.css");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f0ec;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    background-color: #fff;
+    mix-blend-mode: difference;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+
+/* featured */
+
+.featured-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.featured-section img {
+    clip-path: inset(100% 0% 0% 0%) !important;
+    transition: clip-path 2s cubic-bezier(0.77, 0, 0.175, 1) !important;
+}
+.featured-section img.is-reveal {
+    clip-path: inset(0% 0% 0% 0%) !important;
+}
+
+.featured-row-layout {
+    grid-template-rows: repeat(2, auto);
+}
+
+.featured-column-layout {
+    grid-template-columns: 100px auto;
+}
+
+.gallery-item-wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20vw 1fr 200px;
+    width: 100vw;
+}
+
+/* Loading Container */
+
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834);
+    z-index: 1;
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #dbd8d6 transparent #dbd8d6 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.splitParent {
+    overflow: hidden;
+}
+.lineChildren {
+    transform: translate(0, 500px);
+}
+.word {
+    overflow: hidden;
+}
+

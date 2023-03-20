@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Syncopate Regular';
+    src: url('Syncopate-Regular.eot');
+    src: url('Syncopate-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Syncopate-Regular.woff2') format('woff2'),
+        url('Syncopate-Regular.woff') format('woff'),
+        url('Syncopate-Regular.ttf') format('truetype'),
+        url('Syncopate-Regular.svg#Syncopate-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Syncopate Bold';
+    src: url('Syncopate-Bold.eot');
+    src: url('Syncopate-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Syncopate-Bold.woff2') format('woff2'),
+        url('Syncopate-Bold.woff') format('woff'),
+        url('Syncopate-Bold.ttf') format('truetype'),
+        url('Syncopate-Bold.svg#Syncopate-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

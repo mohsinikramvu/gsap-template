@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Bai Jamjuree Bold';
+    src: url('BaiJamjuree-Bold.eot');
+    src: url('BaiJamjuree-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Bold.woff2') format('woff2'),
+        url('BaiJamjuree-Bold.woff') format('woff'),
+        url('BaiJamjuree-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree ExtraLight';
+    src: url('BaiJamjuree-ExtraLight.eot');
+    src: url('BaiJamjuree-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-ExtraLight.woff2') format('woff2'),
+        url('BaiJamjuree-ExtraLight.woff') format('woff'),
+        url('BaiJamjuree-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree ExtraLightItalic';
+    src: url('BaiJamjuree-ExtraLightItalic.eot');
+    src: url('BaiJamjuree-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-ExtraLightItalic.woff2') format('woff2'),
+        url('BaiJamjuree-ExtraLightItalic.woff') format('woff'),
+        url('BaiJamjuree-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree Light';
+    src: url('BaiJamjuree-Light.eot');
+    src: url('BaiJamjuree-Light.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Light.woff2') format('woff2'),
+        url('BaiJamjuree-Light.woff') format('woff'),
+        url('BaiJamjuree-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree BoldItalic';
+    src: url('BaiJamjuree-BoldItalic.eot');
+    src: url('BaiJamjuree-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-BoldItalic.woff2') format('woff2'),
+        url('BaiJamjuree-BoldItalic.woff') format('woff'),
+        url('BaiJamjuree-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree RegularItalic';
+    src: url('BaiJamjuree-Italic.eot');
+    src: url('BaiJamjuree-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Italic.woff2') format('woff2'),
+        url('BaiJamjuree-Italic.woff') format('woff'),
+        url('BaiJamjuree-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree Medium';
+    src: url('BaiJamjuree-Medium.eot');
+    src: url('BaiJamjuree-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Medium.woff2') format('woff2'),
+        url('BaiJamjuree-Medium.woff') format('woff'),
+        url('BaiJamjuree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree LightItalic';
+    src: url('BaiJamjuree-LightItalic.eot');
+    src: url('BaiJamjuree-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-LightItalic.woff2') format('woff2'),
+        url('BaiJamjuree-LightItalic.woff') format('woff'),
+        url('BaiJamjuree-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree MediumItalic';
+    src: url('BaiJamjuree-MediumItalic.eot');
+    src: url('BaiJamjuree-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-MediumItalic.woff2') format('woff2'),
+        url('BaiJamjuree-MediumItalic.woff') format('woff'),
+        url('BaiJamjuree-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree SemiBold';
+    src: url('BaiJamjuree-SemiBold.eot');
+    src: url('BaiJamjuree-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-SemiBold.woff2') format('woff2'),
+        url('BaiJamjuree-SemiBold.woff') format('woff'),
+        url('BaiJamjuree-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree SemiBoldItalic';
+    src: url('BaiJamjuree-SemiBoldItalic.eot');
+    src: url('BaiJamjuree-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-SemiBoldItalic.woff2') format('woff2'),
+        url('BaiJamjuree-SemiBoldItalic.woff') format('woff'),
+        url('BaiJamjuree-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bai Jamjuree Regular';
+    src: url('BaiJamjuree-Regular.eot');
+    src: url('BaiJamjuree-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BaiJamjuree-Regular.woff2') format('woff2'),
+        url('BaiJamjuree-Regular.woff') format('woff'),
+        url('BaiJamjuree-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
