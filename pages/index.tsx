@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [preloader, setPreloader] = useState<boolean>(true)
-  const [timer, setTimer] = useState<number>(2);
+  const [timer, setTimer] = useState<number>(3);
   const id = useRef<any>(null);
   const mainEl = useRef<any>(null);
   useLocoScroll(!preloader, mainEl.current);
